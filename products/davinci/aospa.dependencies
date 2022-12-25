@@ -1,0 +1,75 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "pa-davinci/device_xiaomi_davinci",
+        "target_path":  "device/xiaomi/davinci",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-davinci/device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "topaz"
+    },
+    {   "remote":       "github",
+        "repository":   "pa-davinci/android_kernel_xiaomi_davinci",
+        "target_path":  "kernel/msm-4.14",
+        "revision":     "topaz"
+    },
+    {   "remote":       "gitlab",
+        "repository":   "klozz/yuki-clang-new",
+        "target_path":  "prebuilts-master/clang/host/linux-x86/clang-yuki",
+        "revision":     "16.0.0",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Klozz/android_hardware_qcom_audio-2",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "topaz-855"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Klozz/android_hardware_qcom_display-1",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "topaz-855"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Klozz/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "topaz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "topaz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TheXPerienceProject/android_hardware_google_pixel",
+        "target_path":  "hardware/google/pixel",
+        "revision":     "xpe-17.0-caf"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-20.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RainbowUnicornXPe/proprietary_xiaomi_davinci",
+        "target_path":  "vendor/xiaomi/davinci",
+        "revision":     "xpe-17.0-caf",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "RainbowUnicornXPe/vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common",
+        "revision":     "xpe-17.0-caf",
+        "clone-depth":  "1"
+    }
+]
